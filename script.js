@@ -99,7 +99,7 @@ console.log("a is ", a);
 function numberValidation(num) {
   try {
     if (!Number === num) {
-      throw new Error("Number type is not integer");
+      throw ("Number type is not integer");
     } else {
       console.log("number is integer");
     }
